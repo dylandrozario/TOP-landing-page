@@ -1,135 +1,170 @@
-* {outline: 1px solid red;}
-
-
-.page{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-ul{
-    list-style: none;
-}
-
-.header,
-.top-section{
-    color: white;
-}
-
+/* * {outline: 1px solid red;} */
 
 .header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.blue-wrapper{
     background-color: #1F2937;
-    font-family: Roboto;
 }
 
-.header-2-container{
-   margin-bottom: 32px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-}
-
-.mid-section{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-    padding: 64px 256px;
-}
-
-.info{
-    max-width: 200px;
-    border: 3px solid #4A90E2;
-    border-radius: 8px;
-}
-
-.header-2-container h2{
-    padding-top: 30px;
-}
-
-.info img{
-    width: 200px;
-    height: 200px;
+.header-logo{
+    height: 50px;
+    width: auto;
 }
 
 .right-links{
     display: flex;
-    gap: 16px;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-
+    gap: 10px;
 }
 
-img{
-    width:300px;
-    height: auto;
+.right-links a{
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
-.top-section{
+.top-wrapper{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #1F2937;
-    padding: 64px 256px;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
-.top-left{
-    width: 400px;
-}
-
-.top-section img{
-    order: 1;
-    width: 500px;
-    height: 250px;
-    padding: 8px 16px;
-}
-
-.top-left{
-    display: flex;
-    flex-direction: column;
+.top{
+    align-self: center;
+    margin-right: 20px;
 }
 
 h1{
-    font-weight: 900;
     font-size: 48px;
+    font-weight: 900;
     color: #F9FAF8;
-    word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+}
+
+.top-text{
+    color: #e5e7eb
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.cards-wrapper{
+    margin: 100px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-image{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
+}
+
+.card-subtext{
+    text-align: center;
+    margin-top: -15px;
+}
+
+.quote-wrapper{
+    background-color: #E5E7EB;
 }
 
 .quote-container{
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.quote{
     font-size: 36px;
-    word-wrap: break-word;
-    padding: 70px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .author{
-    font-size: 18px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.bottom{
+    margin: 100px;
 }
 
 .ad-container{
+    background-color: #3882F6;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 300px; */
+    /* margin-right: 300px; */
+    border-radius: 10px;
+    padding: 50px;
+}
+
+h3{
+    color: #e5e7eb;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ad-text{
+    color: #e5e7eb;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign-up-button{
+    border: 2px solid #e5e7eb;
+}
+
+.footer-wrapper{
+    background-color: #1F2937;
 }
 
 .footer{
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    margin: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-button{
-    width: 100px;
-    height: 35px; 
-    background-color: #3882F6;
-    border-radius: 10px 0 10px 0; /* top-left, top-right, bottom-right, bottom-left */
-
+.landing-image{
+    width: 500px;
+    height: 300px;
 }
