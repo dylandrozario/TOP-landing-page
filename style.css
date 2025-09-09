@@ -19,7 +19,7 @@ ul{
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     font-family: Roboto;
@@ -77,7 +77,7 @@ img{
 }
 
 .top-left{
-    width: 350px;
+    width: 400px;
 }
 
 .top-section img{
@@ -128,7 +128,7 @@ h1{
 
 button{
     width: 100px;
-    height: 35px;
+    height: 35px; 
     background-color: #3882F6;
     border-radius: 10px 0 10px 0; /* top-left, top-right, bottom-right, bottom-left */
 
