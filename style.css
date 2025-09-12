@@ -1,15 +1,44 @@
 /* * {outline: 1px solid red;} */
 
+html, body {
+  height: 100%;
+  margin: 0;       /* <--- remove default white space around page */
+  padding: 0;
+}
+
+h1, 
+h2, 
+h3{
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.blue-wrapper, 
+.footer-wrapper{
+     background-color: #1F2937;
+}
+
+.right-links a, 
+.top-text, 
+.sign-up-button,
+h3, 
+.ad-text, 
+.footer{
+    color: #e5e7eb;
+}
+
+.sign-up-button,
+.ad-container{
+    background-color: #3882F6;
+}
+
 .header{
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 0px;
     justify-content: space-around;
     font-size: 18px;
-}
-
-.blue-wrapper{
-    background-color: #1F2937;
 }
 
 .header-logo{
@@ -20,44 +49,35 @@
 .right-links{
     display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     gap: 10px;
 }
 
+
 .right-links a{
-    color: #e5e7eb;
     text-decoration: none;
 }
 
 .top-wrapper{
     display: flex;
     justify-content: center;
-    margin: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
+    align-items: center;
+    gap: 2rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 50px 20px; 
 }
 
 .top{
-    align-self: center;
     margin-right: 20px;
 }
 
 h1{
     font-size: 48px;
-    font-weight: 900;
     color: #F9FAF8;
-    padding: 0;
-    margin: 0;
 }
 
-.top-text{
-    color: #e5e7eb
-}
 
 .sign-up-button{
-    background-color: #3882F6;
-    color: #e5e7eb;
     font-weight: 900;
     padding: 5px 20px;
     border-radius: 5px;
@@ -70,7 +90,6 @@ h1{
 
 h2{
     font-size: 36px;
-    font-weight: 900;
     color: #1F2937;
     text-align: center;
     margin-top: -50px;
@@ -103,9 +122,11 @@ h2{
 .quote-container{
     display: flex;
     flex-direction: column;
-    margin: 100px;
-    padding-left: 400px;
-    padding-right: 400px;
+    gap: 2rem;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 50px 20px; 
+    
 }
 
 .quote{
@@ -125,35 +146,19 @@ h2{
 }
 
 .ad-container{
-    background-color: #3882F6;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-left: 300px; */
-    /* margin-right: 300px; */
     border-radius: 10px;
     padding: 50px;
 }
 
-h3{
-    color: #e5e7eb;
-    padding: 0px;
-    margin: 0px;
-}
 
-.ad-text{
-    color: #e5e7eb;
-    padding: 0px;
-    margin: 0px;
-}
 
 .sign-up-button{
     border: 2px solid #e5e7eb;
 }
 
-.footer-wrapper{
-    background-color: #1F2937;
-}
 
 .footer{
     display: flex;
@@ -161,7 +166,6 @@ h3{
     align-items: center;
     margin: 10px;
     font-size: 18px;
-    color: #E5E7EB;
 }
 
 .landing-image{
