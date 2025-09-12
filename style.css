@@ -4,7 +4,7 @@
 html, body {
   font-family: 'Roboto', sans-serif;
   height: 100%;
-  margin: 0;       /* <--- remove default white space around page */
+  margin: 0;       
   padding: 0;
 }
 
@@ -139,7 +139,7 @@ h2{
 }
 
 .author{
-    font-weight: 900;
+    font-weight: 300;
     align-self: flex-end;
 }
 
